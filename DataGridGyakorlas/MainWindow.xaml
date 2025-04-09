@@ -6,6 +6,11 @@
         xmlns:local="clr-namespace:DataGridGyakorlas"
         mc:Ignorable="d"
         Title="MainWindow" Height="250" Width="400"
+        Title="MainWindow" Height="450" Width="800">
+        WindowStyle="None">
+        <Button  Width="200px" Height="20px" x:Name="ujBegegseg" Content="Betegség felvétele" Click="ujBegegseg_Click"></Button>
+=========
+        Title="MainWindow" Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         Foreground="Brown"
@@ -13,15 +18,15 @@
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source ="/EroForrasok/StilusokesMiujsagok.xaml"/>
+        <!--<Title="MainWindow" Height="450" Width="800">-->
+        <Button Click="Button_Click" Width="200px" Height="20px" Content="Betegek kórlapjai" Margin="15"></Button>
+        <Button  Width="200px" Height="20px" x:Name="ujBegegseg" Content="Betegség felvétele" Click="ujBegegseg_Click"></Button>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
 
     <StackPanel>
         <TextBlock Text="Betegek adatai" HorizontalAlignment="Center" Style="{StaticResource cimStyle}"/>
-        <!--<Title="MainWindow" Height="450" Width="800">-->
-        <Button Click="Button_Click" Width="200px" Height="20px" Content="Betegek kórlapjai" Margin="15"></Button>
-        <Button  Width="200px" Height="20px" x:Name="ujBegegseg" Content="Betegség felvétele" Click="ujBegegseg_Click"></Button>
+>>>>>>>>> Temporary merge branch 2
     </StackPanel>
 </Window>
