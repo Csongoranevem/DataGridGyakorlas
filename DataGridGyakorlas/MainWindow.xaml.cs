@@ -28,22 +28,31 @@ namespace DataGridGyakorlas
 
         private void ReadDataBase()
         {
-            //using ( SQLiteConnection sQLiteconnection = new SQLite.SQLiteConnection(App.dataBasePath))
+            using (SQLite.SQLiteConnection sQLiteConnection = new SQLite.SQLiteConnection(App.dataBasePath))
+            {
+                sQLiteConnection.CreateTable<Beteg>();
+                betegek = sQLiteConnection.Table<Beteg>().ToList();
+
+            }
+            if (betegek != null)
+            {
+            }
+
+
+
+
+
+            //private void ujBegegseg_Click(object sender, RoutedEventArgs e)
             //{
-            //    sQLiteconnection.CreateTable<Beteg>();
-            //    betegek = sQLiteconnection.Table<Beteg>().ToList();
-
-            //}
-            //if (betegek != null)
-            //{
+            //    using (Sql)
             //}
 
 
-
-
-    
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
 
-    }
+        }
+    } 
 }
