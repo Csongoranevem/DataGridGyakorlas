@@ -1,0 +1,19 @@
+﻿<Window x:Class="DataGridGyakorlas.korLap"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridGyakorlas"
+        mc:Ignorable="d"
+        Title="korLap" Height="450" Width="800">
+    <DataGrid>
+        <DataGrid.Columns >
+            <DataGridTextColumn Header="ID"></DataGridTextColumn>
+            <DataGridTextColumn Header="Betegség neve"></DataGridTextColumn>
+            <DataGridTextColumn Header="Kórokozója"></DataGridTextColumn>
+            <DataGridTextColumn Header="Megjelenési helye(i)"></DataGridTextColumn>
+            <DataGridTextColumn Header="Veszélyességi besorolása"></DataGridTextColumn>
+            
+        </DataGrid.Columns>
+    </DataGrid>
+</Window>

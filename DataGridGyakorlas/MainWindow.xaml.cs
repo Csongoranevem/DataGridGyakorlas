@@ -41,7 +41,10 @@ namespace DataGridGyakorlas
 
 
 
-    
+
+        private void ujBegegseg_Click(object sender, RoutedEventArgs e)
+        {
+            using (Sql)
         }
 
 
