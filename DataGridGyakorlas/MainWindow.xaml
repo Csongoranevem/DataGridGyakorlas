@@ -8,5 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
         <TextBlock Text="Betegek adatai" HorizontalAlignment="Center"/>
+        <Button Click="Button_Click" Width="200px" Height="20px" Content="Betegek kórlapjai"></Button>
+        <Button  Width="200px" Height="20px" x:Name="ujBegegseg" Content="Betegség felvétele" Click="ujBegegseg_Click"></Button>
     </StackPanel>
 </Window>

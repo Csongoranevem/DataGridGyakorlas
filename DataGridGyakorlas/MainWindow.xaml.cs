@@ -20,5 +20,18 @@ namespace DataGridGyakorlas
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            korLap korLap = new korLap();
+            korLap.ShowDialog();
+        }
+
+        private void ujBegegseg_Click(object sender, RoutedEventArgs e)
+        {
+            using (Sql)
+        }
+
+
     }
 }

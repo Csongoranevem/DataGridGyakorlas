@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:DataGridGyakorlas"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style></Style>
+    
+
     </Application.Resources>
 </Application>
